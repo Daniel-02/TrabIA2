@@ -11,16 +11,24 @@ tokens = [nltk.word_tokenize(sentence) for sentence in sentences]
 
 # POS tagging
 tagger = pickle.load(open("tagger.pkl", 'rb'))
-tags = [tagger.tag(token) for token in tokens]
-print(tags)
+tags_sentences = [tagger.tag(token) for token in tokens]
 
+# Remoção de stopwords
+stopwords = nltk.corpus.stopwords.words('portuguese')
+stopwords_sentences = []
+for tags_sentence in tags_sentences:
+    stopword_tokens = []
+    for tag in tags_sentence:
+        if tag[0] not in stopwords:
+            stopword_tokens.append(tag)
+    stopwords_sentences.append(stopword_tokens)
 
 # Stemming usando RSLPStemmer
 stemmer = nltk.stem.RSLPStemmer()
 stemmed_sentences = []
-for tags_s in tags:
-    stemmed_tokens = []
-    for token in tags_s:
-        stemmed_tokens.append([stemmer.stem(token[0]), token[1]])
-    stemmed_sentences.append(stemmed_tokens)
+for stopwords_sentence in stopwords_sentences:
+    stemmed_words = []
+    for word in stopwords_sentence:
+        stemmed_words.append([stemmer.stem(word[0]), word[1]])
+    stemmed_sentences.append(stemmed_words)
 print(stemmed_sentences)
