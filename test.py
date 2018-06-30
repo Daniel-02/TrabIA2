@@ -15,6 +15,8 @@ tags_sentences = [tagger.tag(token) for token in tokens]
 
 # Remoção de stopwords
 stopwords = nltk.corpus.stopwords.words('portuguese')
+custom_stopwords = ['app', 'por', 'favor', 'conserta', 'conserte']
+stopwords.extend(custom_stopwords)
 stopwords_sentences = []
 for tags_sentence in tags_sentences:
     stopword_tokens = []
