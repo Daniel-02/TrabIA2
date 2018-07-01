@@ -1,0 +1,101 @@
+,Review,Rating
+0,"[[('consegu', 'VERB'), ('acess', 'VERB'), ('títul', 'NOUN'), ('extrem', 'ADJ'), ('facil', 'NOUN')]]",5
+1,"[[('instal', 'NOUN'), ('final', 'NOUN'), ('seman', 'NOUN'), ('funcion', 'VERB'), ('procur', 'VERB'), ('cadastr', 'NOUN'), ('deu', 'VERB'), ('err', 'NOUN')], [('realiz', 'VERB'), ('cadastr', 'NOUN'), ('hor', 'NOUN'), ('comerc', 'ADJ'), ('coloc', 'VERB'), ('nom', 'NOUN'), ('pal', 'NOUN'), ('const', 'VERB'), ('títul', 'NOUN'), ('funcion', 'VERB'), ('direit', 'NOUN')]]",4
+2,"[[('func', 'VERB'), ('pod', 'VERB'), ('coloc', 'VERB'), ('dad', 'NOUN'), ('acent', 'NOUN'), ('acent', 'NOUN'), ('coloc', 'VERB'), ('barr', 'NOUN'), ('aparec', 'VERB'), ('digit', 'VERB'), ('dat', 'NOUN'), ('softw', 'NOUN'), ('déc', 'NOUN'), ('faz', 'VERB'), ('dinh', 'NOUN'), ('pov', 'NOUN'), ('jog', 'VERB'), ('lix', 'NOUN')]]",1
+3,"[[('func', 'VERB')]]",5
+4,"[[('consult', 'NOUN'), ('títul', 'NOUN'), ('sit', 'NOUN'), ('justiç', 'NOUN'), ('eleitor', 'ADJ'), ('consig', 'VERB'), ('ver', 'VERB'), ('dad', 'NOUN'), ('local', 'ADJ'), ('vot', 'NOUN')], [('tent', 'VERB'), ('us', 'VERB'), ('diz', 'VERB'), ('elei', 'NOUN'), ('encontr', 'VERB')], [('vist', 'VERB'), ('únic', 'ADJ'), ('reclam', 'VERB'), ('problem', 'NOUN'), ('pass', 'VERB'), ('hor', 'NOUN'), ('desenvolv', 'NOUN'), ('corrig', 'VERB')]]",1
+5,"[[('funcion', 'VERB'), ('lg', 'NOUN'), ('q6+', 'NOUN')], [('dad', 'NOUN'), ('entr', 'VERB'), ('consegu', 'VERB'), ('visual', 'VERB'), ('certific', 'VERB')], [('bom', 'ADJ'), ('prát', 'ADJ')]]",5
+6,"[[('útil', 'ADJ')]]",5
+7,"[[('vou', 'VERB'), ('log', 'VERB'), ('aparec', 'VERB'), ('avis', 'NOUN'), ('tent', 'VERB')], [('consegu', 'VERB'), ('acess', 'VERB'), ('vez', 'NOUN')], [('horr', 'ADJ')]]",1
+8,"[[('tenh', 'VERB'), ('comparec', 'VERB'), ('zon', 'NOUN'), ('eleitor', 'NOUN'), ('mud', 'VERB'), ('fot', 'NOUN'), ('exist', 'VERB'), ('fot', 'NOUN'), ('títul', 'NOUN')]]",4
+9,"[[('vot', 'NOUN'), ('dev', 'VERB'), ('deix', 'VERB'), ('ser', 'VERB'), ('obrigatori', 'NOUN'), ('vot', 'VERB'), ('net', 'NOUN')], [('poli', 'NOUN'), ('corrupt', 'NOUN'), ('dev', 'VERB'), ('ser', 'VERB'), ('exclu', 'VERB'), ('imped', 'VERB'), ('candidat', 'VERB')]]",3
+10,"[[('preench', 'NOUN'), ('dad', 'NOUN'), ('títul', 'NOUN'), ('identific', 'NOUN'), ('biométr', 'NOUN'), ('aparec', 'VERB'), ('pop-up', 'NOUN'), ('&', 'NOUN'), ('quot', 'NOUN'), ('atenç', 'NOUN'), ('quot', 'NOUN'), ('inform', 'NOUN'), ('bot', 'VERB'), ('&', 'NOUN'), ('quot', 'NOUN'), ('ok', 'NOUN'), ('quot', 'NOUN')]]",1
+11,"[[('funcion', 'VERB')]]",5
+12,"[[('vari', 'VERB'), ('func', 'VERB')], [('preench', 'NOUN'), ('dad', 'NOUN'), ('apresent', 'VERB'), ('mens', 'NOUN'), ('fal', 'VERB'), ('&', 'NOUN'), ('quot', 'NOUN'), ('atenç', 'NOUN'), ('tent', 'VERB'), ('&', 'NOUN'), ('quot', 'NOUN'), ('dia', 'NOUN')], [('😠😡', 'NOUN')]]",1
+13,"[[('consig', 'VERB'), ('cadastr', 'VERB'), ('dad', 'NOUN'), ('ped', 'VERB'), ('tent', 'VERB')], [('est', 'VERB'), ('tent', 'VERB'), ('mê', 'NOUN')]]",1
+14,"[[('integr', 'VERB'), ('cadastr', 'NOUN'), ('biométr', 'ADJ'), ('realiz', 'VERB')]]",1
+15,"[[('horri', 'ADJ'), ('vez', 'NOUN'), ('mens', 'NOUN'), ('ocorr', 'VERB'), ('err', 'NOUN'), ('sistem', 'NOUN'), ('consegu', 'VERB'), ('acess', 'VERB'), ('inform', 'NOUN'), ('pess', 'ADJ'), ('app..', 'NOUN')]]",1
+16,"[[('func', 'VERB')], [('diz', 'VERB'), ('ocorr', 'VERB'), ('err', 'NOUN')]]",1
+17,"[[('aplic', 'ADJ'), ('útil', 'ADJ'), ('vot', 'NOUN'), ('liber', 'NOUN'), ('anac', 'NOUN'), ('us', 'VERB'), ('identific', 'NOUN'), ('check-in', 'NOUN'), ('vôo', 'NOUN')]]",5
+18,"[[('propagand', 'NOUN'), ('govern', 'NOUN'), ('é', 'VERB'), ('fez', 'VERB'), ('identific', 'NOUN'), ('biométr', 'NOUN'), ('faz', 'VERB'), ('e-titul', 'NOUN'), ('facil', 'NOUN')], [('é', 'VERB')], [('é', 'VERB'), ('tosc', 'ADJ')], [('inform', 'VERB'), ('dat', 'NOUN'), ('nasc', 'NOUN'), ('digit', 'VERB'), ('barr', 'NOUN')]]",2
+19,"[[('est', 'VERB'), ('inform', 'VERB'), ('err', 'NOUN'), ('reconhec', 'NOUN'), ('dad', 'NOUN')]]",1
+20,"[[('funcion', 'VERB'), ('parabém', 'NOUN')], [('sig', 'VERB'), ('caminh', 'NOUN'), ('document', 'NOUN')]]",5
+21,"[[('tá', 'VERB'), ('dand', 'VERB'), ('ódi', 'NOUN')], [('preench', 'NOUN'), ('dad', 'NOUN'), ('fal', 'VERB'), ('elei', 'NOUN'), ('encontr', 'VERB')], [('sei', 'VERB'), ('é', 'VERB'), ('fiz', 'VERB'), ('títul', 'NOUN'), ('dia', 'NOUN'), ('18/05/18', 'NOUN'), ('esper', 'VERB'), ('soluç', 'NOUN'), ('tav', 'NOUN'), ('empolg', 'VERB'), ('decepcion', 'VERB')]]",1
+22,"[[('app', 'NOUN'), ('intui', 'ADJ'), ('funcion', 'VERB'), ('veloc', 'NOUN'), ('absurd', 'ADJ')]]",5
+23,"[[('funcion', 'VERB'), ('cmg', 'NOUN')]]",5
+24,"[[('é', 'VERB'), ('interess', 'ADJ')], [('opin', 'NOUN'), ('dev', 'VERB'), ('funcion', 'VERB'), ('off-lin', 'NOUN')]]",3
+25,"[[('brazil', 'NOUN'), ('lix', 'NOUN')]]",1
+26,"[[('fiz', 'VERB'), ('preench', 'NOUN'), ('aplic', 'ADJ'), ('cri', 'VERB'), ('órg', 'NOUN'), ('públic', 'ADJ'), ('brasil', 'ADJ'), ('apresent', 'VERB'), ('seguint', 'ADJ'), ('avis', 'NOUN'), ('atenç', 'NOUN'), ('tent', 'VERB')], [('conex', 'NOUN'), ('favor', 'NOUN'), ('comparec', 'VERB'), ('tribun', 'NOUN'), ('eleitor', 'ADJ'), ('há', 'VERB'), ('err', 'NOUN'), ('diverg', 'NOUN'), ('acab', 'VERB'), ('entr', 'VERB'), ('sit', 'NOUN'), ('tse', 'NOUN'), ('é', 'VERB'), ('err', 'NOUN'), ('cadastr', 'NOUN')], [('🏃\u200d♂️🏃\u200d♂️🏃\u200d♂️', 'NOUN'), ('dess', 'VERB'), ('aplic', 'ADJ')]]",1
+27,"[[('lix', 'NOUN')], [('coloq', 'VERB'), ('inform', 'NOUN'), ('vez', 'NOUN'), ('diz', 'VERB'), ('elei', 'NOUN'), ('encontr', 'VERB')], [('err', 'NOUN'), ('program', 'NOUN'), ('apag', 'NOUN'), ('prim', 'ADJ'), ('dígit', 'NOUN'), ('inscr', 'NOUN'), ('começ', 'VERB'), ('cas', 'NOUN')], [('facilit', 'NOUN')], [('propagand', 'NOUN')], []]",1
+28,"[[('aplic', 'ADJ'), ('cri', 'VERB'), ('órg', 'NOUN'), ('públic', 'ADJ')], [('dev', 'VERB'), ('funcion', 'VERB'), ('func', 'NOUN'), ('sim', 'NOUN')], [('carreg', 'VERB'), ('dad', 'NOUN'), ('rapid', 'NOUN'), ('emit', 'NOUN'), ('cert', 'NOUN'), ('crim', 'NOUN'), ('eleitor', 'ADJ'), ('local', 'NOUN'), ('votação..', 'NOUN'), ('not', 'NOUN')]]",5
+29,"[[('continu', 'VERB'), ('tend', 'VERB'), ('problem', 'NOUN')], [('biometr', 'NOUN'), ('process', 'NOUN')], [('suport', 'NOUN'), ('encerr', 'VERB'), ('cham', 'ADJ'), ('resolv', 'VERB'), ('resolv', 'VERB'), ('e-titul', 'NOUN'), ('est', 'VERB'), ('complet', 'ADJ'), ('crei', 'VERB'), ('est', 'VERB'), ('deix', 'VERB'), ('inscr', 'NOUN'), ('mes', 'NOUN'), ('etern', 'NOUN'), ('process', 'NOUN')]]",1
+30,"[[('precis', 'VERB'), ('internet', 'NOUN'), ('acess', 'VERB')]]",1
+31,"[[('funcion', 'VERB'), ('gost', 'VERB'), ('sab', 'VERB'), ('obje', 'NOUN'), ('vou', 'VERB'), ('lev', 'VERB'), ('celul', 'ADJ'), ('vot', 'VERB'), ('precis', 'VERB'), ('document', 'NOUN')]]",4
+32,"[[('func', 'VERB')], [('digit', 'NOUN'), ('dad', 'NOUN'), ('titul', 'NOUN'), ('segund', 'NOUN'), ('palm', 'NOUN'), ('mão', 'NOUN')], [(':3', 'NOUN')]]",5
+33,"[[('horr', 'ADJ'), ('ñ', 'NOUN'), ('consegu', 'VERB'), ('acess', 'VERB'), ('títul', 'NOUN'), ('qr', 'NOUN'), ('cod', 'NOUN'), ('banc', 'NOUN'), ('dad', 'NOUN'), ('bug', 'NOUN')]]",1
+34,"[[('é', 'VERB'), ('brinc', 'NOUN')], [('cri', 'VERB'), ('institu', 'NOUN'), ('públic', 'ADJ'), ('brasill', 'NOUN'), ('que', 'NOUN'), ('func', 'NOUN'), ('verdad', 'NOUN')], [('pod', 'VERB'), ('ser', 'VERB')], [('dev', 'VERB'), ('est', 'VERB'), ('ai', 'NOUN')], [], [('e-títul', 'NOUN'), ('instal', 'VERB'), ('problem', 'NOUN'), ('ocup', 'VERB'), ('memór', 'NOUN'), ('olh', 'VERB'), ('já', 'NOUN'), ('ger', 'NOUN'), ('títul', 'NOUN')], [('foi', 'VERB'), ('aliment', 'VERB'), ('dad', 'NOUN'), ('pimb', 'NOUN')], [('emit', 'NOUN'), ('cert', 'NOUN'), ('quit', 'NOUN')], [('falt', 'VERB'), ('rest', 'NOUN'), ('autarqu', 'NOUN'), ('tom', 'VERB'), ('vergonh', 'NOUN'), ('car', 'NOUN'), ('faz', 'VERB'), ('document', 'NOUN'), ('públic', 'ADJ')], [('junt', 'NOUN'), ('reconhec', 'NOUN'), ('fac', 'ADJ'), ('básic', 'ADJ'), ('conect', 'NOUN'), ('inter', 'NOUN'), ('opcion', 'ADJ'), ('aspect', 'NOUN'), ('vid', 'NOUN'), ('cidad', 'NOUN'), ('ctp', 'NOUN'), ('cnh', 'NOUN'), ('scor', 'NOUN'), ('crédit', 'NOUN'), ('unif', 'NOUN'), ('mum', 'NOUN'), ('deix', 'VERB'), ('brasil', 'NOUN'), ('feliz', 'ADJ'), ('mudéin', 'NOUN')], [('xd', 'NOUN')]]",5
+35,"[[('direit', 'NOUN'), ('dess', 'VERB'), ('atual', 'NOUN'), ('ok', 'NOUN')]]",5
+36,"[[('compet', 'NOUN'), ('dev', 'VERB'), ('ter', 'VERB'), ('sid', 'VERB'), ('feit', 'VERB'), ('serpr', 'NOUN')]]",5
+37,"[[('func', 'VERB'), ('seguranç', 'NOUN'), ('cas', 'NOUN'), ('celul', 'ADJ'), ('roub', 'VERB'), ('vc', 'NOUN'), ('apag', 'VERB'), ('dad', 'NOUN'), ('pod', 'VERB'), ('ter', 'VERB'), ('acess', 'NOUN'), ('inform', 'NOUN')]]",3
+38,"[[('é', 'VERB'), ('func', 'VERB')]]",5
+39,"[[('func', 'VERB'), ('ide', 'NOUN'), ('legal', 'ADJ'), ('pod', 'VERB'), ('ser', 'VERB'), ('integr', 'VERB'), ('app', 'NOUN'), ('document', 'NOUN'), ('digit', 'ADJ'), ('exempl', 'NOUN'), ('cnh', 'NOUN')], [('see', 'NOUN'), ('legal', 'ADJ'), ('tamb', 'VERB'), ('opça', 'NOUN'), ('troc', 'VERB'), ('zon', 'NOUN'), ('eleitor', 'ADJ')]]",5
+40,"[[('func', 'VERB'), ('faz', 'VERB'), ('diz', 'VERB'), ('é', 'VERB'), ('document', 'NOUN'), ('físic', 'ADJ'), ('lid', 'VERB')]]",5
+41,"[[('func', 'VERB')]]",1
+42,"[[('cheg', 'VERB'), ('dar', 'VERB'), ('vontad', 'NOUN'), ('procur', 'VERB'), ('dinh', 'NOUN'), ('invest', 'VERB'), ('faz', 'VERB')]]",2
+43,"[[('func', 'VERB')]]",1
+44,"[[('fal', 'VERB'), ('ta', 'NOUN'), ('err', 'VERB'), ('ir', 'VERB'), ('ate', 'NOUN'), ('cartori', 'NOUN'), ('eleitor', 'ADJ'), ('pq', 'NOUN'), ('acab', 'VERB'), ('tir', 'VERB'), ('titul', 'NOUN')]]",1
+45,"[[('problem', 'NOUN')]]",5
+46,"[[('bom', 'ADJ'), ('func', 'VERB'), ('direit', 'NOUN'), ('é', 'VERB'), ('clar', 'ADJ'), ('sid', 'VERB'), ('cadastr', 'VERB'), ('identific', 'NOUN'), ('biométr', 'NOUN')]]",5
+47,"[[('consig', 'VERB'), ('log', 'VERB'), ('diz', 'VERB'), ('exist', 'NOUN'), ('cadastr', 'NOUN')]]",1
+48,"[[('func', 'VERB'), ('feijo', 'NOUN')]]",1
+49,"[[('drog', 'NOUN'), ('biometr', 'NOUN'), ('pront', 'ADJ'), ('coloq', 'VERB'), ('dad', 'NOUN'), ('diz', 'VERB'), ('encontr', 'VERB'), ('dev', 'VERB'), ('ser', 'VERB'), ('&', 'NOUN'), ('quot', 'NOUN'), ('mort', 'VERB'), ('&', 'NOUN'), ('quot', 'NOUN'), ('&', 'NOUN'), ('quot', 'NOUN'), ('&', 'NOUN'), ('quot', 'NOUN'), ('justiç', 'NOUN'), ('eleitor', 'ADJ'), ('vot', 'VERB'), ('justific', 'VERB'), ('pass', 'NOUN'), ('exist', 'VERB')], [('pobr', 'ADJ'), ('brasil', 'NOUN')], []]",1
+50,"[[('problem', 'NOUN')], [('perfeit', 'NOUN'), ('funç', 'NOUN')]]",5
+51,"[[('simpl', 'ADJ'), ('func', 'NOUN')]]",5
+52,"[[('aplic', 'ADJ'), ('der', 'VERB'), ('err', 'NOUN'), ('conex', 'NOUN'), ('internet', 'NOUN'), ('é', 'VERB'), ('reinici', 'VERB'), ('aparelh', 'NOUN'), ('instal', 'NOUN')]]",4
+53,"[[('diz', 'VERB'), ('títul', 'NOUN'), ('ah', 'NOUN'), ('fal', 'VERB'), ('séri', 'ADJ')], [('fiz', 'VERB'), ('biometr', 'NOUN')]]",1
+54,"[[('aplic', 'ADJ'), ('fal', 'VERB'), ('q', 'NOUN'), ('nao', 'NOUN'), ('exist', 'NOUN'), ('dad', 'ADJ'), ('inser', 'VERB')]]",1
+55,"[[('faz', 'VERB'), ('func', 'VERB'), ('nao', 'NOUN'), ('ach', 'VERB')]]",1
+56,"[[('dev', 'VERB')]]",5
+57,"[[('func', 'VERB'), ('diz', 'VERB'), ('consegu', 'VERB'), ('conect', 'VERB'), ('serv', 'ADJ')], [('péss', 'ADJ')]]",1
+58,"[[('diz', 'VERB'), ('conex', 'NOUN'), ('internet', 'NOUN'), ('celul', 'ADJ'), ('conect', 'VERB'), ('wi-f', 'NOUN'), ('4g', 'NOUN')]]",1
+59,"[[('ruim', 'NOUN')]]",1
+60,"[[('form', 'NOUN'), ('troc', 'VERB'), ('fot', 'NOUN')], [('😂😂', 'NOUN')]]",4
+61,"[[('comerc', 'ADJ'), ('dest', 'NOUN'), ('aplic', 'NOUN'), ('começ', 'VERB'), ('diz', 'VERB'), ('pod', 'VERB'), ('ser', 'VERB'), ('us', 'VERB'), ('perd', 'VERB'), ('títul', 'NOUN'), ('elei', 'NOUN')], [('perd', 'VERB'), ('títul', 'NOUN'), ('elei', 'NOUN'), ('pod', 'VERB'), ('lembr', 'VERB'), ('númer', 'NOUN'), ('inscr', 'NOUN'), ('títul', 'NOUN')], [('aplic', 'NOUN'), ('ped', 'VERB'), ('nom', 'NOUN'), ('pesso', 'NOUN'), ('dat', 'NOUN'), ('nasc', 'NOUN'), ('nom', 'NOUN'), ('pai', 'NOUN'), ('mãe', 'NOUN'), ('precis', 'VERB'), ('númer', 'NOUN'), ('inscr', 'NOUN'), ('elei', 'NOUN')]]",3
+62,"[[('ide', 'NOUN'), ('excepc', 'ADJ'), ('execuç', 'NOUN'), ('desastr', 'ADJ')], [('app', 'NOUN'), ('dá', 'VERB'), ('err', 'NOUN'), ('d', 'NOUN'), ('quot', 'NOUN'), ('verific', 'VERB'), ('conex', 'NOUN'), ('internet', 'NOUN'), ('quot', 'NOUN'), ('wif', 'NOUN'), ('3/4g', 'NOUN'), ('ativ', 'NOUN')], [('exig', 'VERB'), ('númer', 'NOUN'), ('títul', 'NOUN'), ('p', 'NOUN'), ('acess', 'VERB'), ('app', 'NOUN'), ('send', 'VERB'), ('q', 'NOUN'), ('internet', 'NOUN'), ('consegu', 'VERB'), ('consult', 'VERB'), ('númer', 'NOUN'), ('títul', 'NOUN'), ('nm', 'NOUN'), ('complet', 'ADJ'), ('dt', 'NOUN'), ('nasc', 'NOUN'), ('nm', 'NOUN'), ('mãe', 'NOUN')], [('app', 'NOUN'), ('ruim', 'ADJ')]]",1
+63,"[[('aplic', 'ADJ'), ('acess', 'VERB')], [('err', 'NOUN')]]",1
+64,"[[('diz', 'VERB'), ('acess', 'NOUN'), ('internet', 'NOUN')], [('pi', 'ADJ'), ('propagand', 'NOUN'), ('red', 'NOUN'), ('nacion', 'ADJ'), ('func', 'VERB'), ('vergonh', 'NOUN')]]",1
+65,"[[('coloqu', 'VERB'), ('opç', 'NOUN'), ('pesquis', 'VERB'), ('númer', 'NOUN'), ('títul', 'NOUN'), ('vai', 'VERB'), ('ser', 'VERB'), ('ferrament', 'VERB'), ('útil', 'ADJ')]]",3
+66,"[[('abr', 'NOUN'), ('aplic', 'ADJ'), ('fic', 'VERB'), ('tel', 'NOUN'), ('bramc', 'NOUN')], [('aplic', 'ADJ'), ('contém', 'VERB'), ('err', 'NOUN'), ('respons', 'ADJ'), ('dev', 'VERB'), ('arrum', 'VERB')]]",1
+67,"[[('comig', 'NOUN'), ('funcion', 'VERB')], [('coloc', 'VERB'), ('print', 'NOUN'), ('googl', 'NOUN'), ('play', 'NOUN'), ('rod', 'VERB'), ('io', 'NOUN')]]",1
+68,"[[('coloc', 'NOUN'), ('dad', 'NOUN'), ('aparec', 'VERB'), ('mens', 'NOUN'), ('elei', 'NOUN'), ('encontr', 'VERB')], [('verifiq', 'VERB'), ('dad', 'NOUN'), ('vez', 'NOUN'), ('cert', 'ADJ'), ('consig', 'VERB'), ('us', 'VERB')]]",1
+69,"[[('tse', 'NOUN'), ('faz', 'VERB'), ('propagand', 'NOUN'), ('dess', 'VERB'), ('pass', 'VERB'), ('vergonh', 'NOUN')], [('preench', 'NOUN'), ('dad', 'NOUN'), ('aparec', 'VERB'), ('mens', 'NOUN'), ('quot', 'NOUN'), ('verifiqu', 'VERB'), ('conex', 'NOUN'), ('quot', 'NOUN'), ('est', 'VERB'), ('wi-f', 'NOUN'), ('lig', 'VERB')], [('vej', 'NOUN'), ('coment', 'NOUN'), ('repet', 'VERB'), ('vez', 'NOUN'), ('pesso', 'NOUN'), ('dat', 'NOUN'), ('diverg', 'NOUN'), ('dev', 'VERB'), ('ter', 'VERB'), ('sid', 'VERB'), ('concert', 'VERB'), ('empr', 'NOUN'), ('respons', 'ADJ')], [('confi', 'VERB'), ('process', 'NOUN'), ('eleitor', 'ADJ'), ('digit', 'ADJ'), ('tse', 'NOUN'), ('é', 'VERB'), ('capaz', 'ADJ'), ('desenvolv', 'VERB'), ('simpl', 'ADJ')], [('tse', 'NOUN'), ('dev', 'VERB'), ('explic', 'NOUN'), ('formal', 'ADJ'), ('baix', 'VERB'), ('aplic', 'ADJ'), ('frust', 'VERB')], [('é', 'VERB'), ('mín', 'ADJ'), ('esper', 'VERB'), ('órg', 'NOUN'), ('import', 'ADJ'), ('democrac', 'NOUN'), ('brasil', 'ADJ')]]",1
+70,"[[('é', 'VERB'), ('bom', 'ADJ'), ('fot', 'NOUN'), ('ta', 'NOUN'), ('horr', 'ADJ'), ('kkkk', 'NOUN'), ('uso', 'NOUN'), ('pau', 'NOUN'), ('kkk', 'NOUN')]]",5
+71,"[[('aparec', 'VERB'), ('pop-up', 'NOUN'), ('escrit', 'VERB'), ('&', 'NOUN'), ('quot', 'NOUN'), ('atenç', 'NOUN'), ('quot', 'NOUN')]]",1
+72,"[[('func', 'VERB'), ('ach', 'VERB'), ('cadastr', 'NOUN')]]",1
+73,"[[('diz', 'VERB'), ('&', 'NOUN'), ('quot', 'NOUN'), ('elei', 'NOUN'), ('encontr', 'VERB'), ('&', 'NOUN'), ('quot', 'NOUN')], [('reescrev', 'VERB'), ('dad', 'NOUN'), ('funcion', 'VERB')]]",1
+74,"[[('hahah', 'NOUN'), ('tr', 'VERB'), ('%', 'NOUN')]]",1
+75,"[[('adicion', 'VERB'), ('inform', 'NOUN'), ('pop', 'NOUN'), ('up', 'NOUN'), ('nom', 'NOUN'), ('quot', 'NOUN'), ('atenç', 'NOUN'), ('quot', 'NOUN'), ('aparec', 'VERB'), ('escrit', 'VERB'), ('diss', 'NOUN'), ('cheq', 'VERB'), ('inform', 'NOUN'), ('igual', 'ADJ'), ('uso', 'NOUN'), ('internet', 'NOUN'), ('faz', 'VERB'), ('consult', 'NOUN')]]",1
+76,"[[('promet', 'VERB')]]",5
+77,"[[('vers', 'NOUN'), ('digit', 'ADJ'), ('títul', 'NOUN'), ('elei', 'NOUN')], [('👌', 'NOUN')]]",5
+78,"[[('prát', 'ADJ'), ('efici', 'ADJ')]]",5
+79,"[[('func', 'VERB')]]",5
+80,"[[('conect', 'VERB'), ('vam', 'VERB'), ('ver', 'VERB'), ('dia', 'NOUN'), ('acontec', 'VERB')]]",3
+81,"[[('inform', 'VERB'), ('dad', 'NOUN'), ('diz', 'VERB'), ('conex', 'NOUN')]]",1
+82,"[[('fal', 'VERB'), ('conex', 'NOUN'), ('internet', 'NOUN')], [('salv', 'VERB'), ('dad', 'NOUN')], [('pen', 'NOUN'), ('é', 'VERB'), ('excel', 'ADJ'), ('ide', 'NOUN')]]",1
+83,"[[('funcion', 'VERB'), ('boa', 'ADJ')]]",5
+84,"[[('app', 'NOUN'), ('bom', 'ADJ'), ('problem', 'NOUN')]]",4
+85,"[[('justiç', 'NOUN'), ('eleitor', 'ADJ'), ('brasil', 'ADJ'), ('inv', 'VERB'), ('cois', 'NOUN'), ('inv', 'VERB'), ('credibil', 'NOUN')]]",1
+86,"[[('err', 'NOUN'), ('conex', 'NOUN'), ('internet', 'NOUN')]]",1
+87,"[[('abr', 'VERB'), ('fic', 'VERB'), ('tel', 'NOUN'), ('branc', 'ADJ'), ('app', 'NOUN'), ('funcion', 'VERB'), ('vai', 'VERB'), ('ser', 'VERB'), ('boa', 'ADJ')]]",1
+88,"[[('aparec', 'VERB'), ('numer', 'NOUN'), ('inscrica', 'NOUN'), ('inval', 'VERB'), ('send', 'VERB'), ('corret', 'ADJ')]]",1
+89,"[[('func', 'VERB')]]",5
+90,"[[('péss', 'ADJ'), ('app', 'NOUN')], [('preench', 'NOUN'), ('dad', 'NOUN'), ('cadastr', 'ADJ'), ('const', 'VERB'), ('mens', 'NOUN'), (""'atenç"", 'NOUN')]]",1
+91,"[[('inst', 'ADJ'), ('apresent', 'VERB'), ('mens', 'NOUN'), ('conex', 'NOUN'), ('tent', 'VERB'), ('faz', 'VERB'), ('login', 'NOUN')]]",1
+92,"[[('pess', 'ADJ')]]",1
+93,"[[('app', 'NOUN'), ('bost', 'NOUN'), ('prest', 'NOUN'), ('govern', 'NOUN'), ('prest', 'NOUN')]]",1
+94,"[[('propost', 'NOUN'), ('boa', 'ADJ'), ('err', 'NOUN')], [('diz', 'VERB'), ('verific', 'VERB'), ('conex', 'NOUN'), ('internet', 'NOUN'), ('aparelh', 'NOUN'), ('conect', 'VERB'), ('via', 'NOUN'), ('wi-f', 'NOUN')]]",1
+95,"[[('diz', 'VERB'), ('conex', 'NOUN'), ('internet', 'NOUN'), ('4g', 'NOUN'), ('wi-f', 'NOUN')], [('ux', 'NOUN'), ('ruim', 'ADJ')], [('nao', 'NOUN'), ('opç', 'NOUN'), ('&', 'NOUN'), ('quot', 'NOUN'), ('lembr', 'VERB'), ('númer', 'NOUN'), ('títul', 'NOUN'), ('quot', 'NOUN'), ('sit', 'NOUN'), ('oferec', 'VERB'), ('recurs', 'NOUN'), ('nom', 'NOUN'), ('complet', 'ADJ'), ('dat', 'NOUN'), ('nasc', 'NOUN'), ('permit', 'VERB'), ('lembr', 'VERB')]]",1
+96,"[[('est', 'VERB'), ('dand', 'VERB'), ('err', 'NOUN'), ('conex', 'NOUN')], [('tse', 'NOUN'), ('faz', 'VERB'), ('propagand', 'NOUN'), ('tv', 'NOUN'), ('dess', 'VERB'), ('defeit', 'ADJ')]]",1
+97,"[[('consegu', 'VERB'), ('acess', 'NOUN')], [('inform', 'VERB'), ('verific', 'VERB'), ('acess', 'NOUN'), ('internet', 'NOUN')]]",1
+98,"[[('aparec', 'VERB'), ('conex', 'NOUN'), ('internet', 'NOUN')]]",1
+99,"[[('nao', 'NOUN'), ('func', 'VERB'), ('err', 'NOUN'), ('conex', 'NOUN'), ('internet', 'NOUN'), ('send', 'VERB'), ('test', 'VERB'), ('red', 'NOUN')]]",1
