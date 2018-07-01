@@ -27,8 +27,6 @@ reviews = saida['Review']
 saida.to_csv(csv_title+'_saida.csv', encoding='utf8')
 
 for r in range(0, reviews.__len__()):
-# review = "Falta muito pouco pra excelente. Sugiro melhorar a parte de notícias e incluir informações sobre o BID, por exemplo."
-
 # Tokenização das sentenças
     portuguese_sent_tokenizer = nltk.data.load("tokenizers/punkt/portuguese.pickle")
     sentences = portuguese_sent_tokenizer.tokenize(reviews[r])
