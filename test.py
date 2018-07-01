@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import nltk
 from nltk.collocations import *
 from nltk import word_tokenize
