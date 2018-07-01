@@ -17,32 +17,35 @@ def join_text(text1, text2):
 
 # Inicialização do csv
 csv_title = 'brasileirao'
-exit_title = csv_title.split('.')[0] + "texto.txt"
 arq = pd.read_csv(csv_title+'.csv', encoding='utf8')
 saida = pd.DataFrame(columns=["Review", "Rating"])
 #a ideia é ter um arquivo texto puro daonde a gente faria a leitura para fazer a extração de funcionalidades
-saidaTxt = open(exit_title,'wt', encoding='utf8')
+# saidaTxt = open(csv_title + "texto.txt", 'wt', encoding='utf8')
 
 for i in range(0, arq['Content'].__len__()):
     saida.set_value(i, "Review", join_text(arq['Title'][i], arq['Content'][i]))
     saida.set_value(i, "Rating", arq['Rating'][i])
-    try:
-       saidaTxt.write(arq['Content'][i] + '\n')
-    except:
-        pass
+    # try:
+    #    saidaTxt.write(arq['Content'][i] + '\n')
+    # except:
+    #     pass
 reviews = saida['Review']
 saida.to_csv(csv_title+'_saida.csv', encoding='utf8')
-saidaTxt.close()
+# saidaTxt.close()
 
+tagger = pickle.load(open("tagger.pkl", 'rb'))
+portuguese_sent_tokenizer = nltk.data.load("tokenizers/punkt/portuguese.pickle")
+stopwords = nltk.corpus.stopwords.words('portuguese')
+custom_stopwords = ['app', 'por', 'favor', 'conserta', 'conserte']
+stopwords.extend(custom_stopwords)
+stemmer = nltk.stem.RSLPStemmer()
 
 for r in range(0, reviews.__len__()):
 # Tokenização das sentenças
-    portuguese_sent_tokenizer = nltk.data.load("tokenizers/punkt/portuguese.pickle")
     sentences = portuguese_sent_tokenizer.tokenize(reviews[r])
     tokens = [nltk.word_tokenize(sentence) for sentence in sentences]
 
 # POS tagging
-    tagger = pickle.load(open("tagger.pkl", 'rb'))
     tags_sentences = [tagger.tag(token) for token in tokens]
 
 # Seleção dos ADJ, VERB, NOUN
@@ -54,10 +57,7 @@ for r in range(0, reviews.__len__()):
                 tags_tokens.append(tag)
         tags_removed_sentences.append(tags_tokens)
 
-    # Remoção de stopwords
-    stopwords = nltk.corpus.stopwords.words('portuguese')
-    custom_stopwords = ['app', 'por', 'favor', 'conserta', 'conserte']
-    stopwords.extend(custom_stopwords)
+# Remoção de stopwords
     stopwords_sentences = []
     for tags_sentence in tags_removed_sentences:
         stopword_tokens = []
@@ -66,26 +66,29 @@ for r in range(0, reviews.__len__()):
                 stopword_tokens.append(tag)
         stopwords_sentences.append(stopword_tokens)
 
-    # Stemming usando RSLPStemmer
-    stemmer = nltk.stem.RSLPStemmer()
+# Stemming usando RSLPStemmer
     stemmed_sentences = []
     for stopwords_sentence in stopwords_sentences:
         stemmed_words = []
         for word in stopwords_sentence:
-            stemmed_words.append([stemmer.stem(word[0]), word[1]])
+            stemmed_words.append(tuple([stemmer.stem(word[0]), word[1]]))
         stemmed_sentences.append(stemmed_words)
     saida.set_value(r, "Review", stemmed_sentences)
 saida.to_csv(csv_title+'_saida_processada.csv', encoding='utf8')
 
 # Algoritmo de collocation de bigramas: se não me engano precisamos considerar todas as reviews para encontrar bigramas:
 # caso não seja isso colocar o trecho abaixo em um for
-exit_txt = open(exit_title,'rt')
-# arq_reviews = pd.read_csv(csv_title+'_saida.csv', encoding='utf8')
-# print(arq_reviews["Review"][0])
-bigram_measure = nltk.collocations.BigramAssocMeasures()
-finder = BigramCollocationFinder.from_words(exit_txt.readlines()) #leio tudo do arquivo para uma string, o que é altamente pesado. Na real isso tá bugado
+# exit_txt = open(csv_title + "texto.txt", 'rt', encoding='utf8')
+bigram_measures = nltk.collocations.BigramAssocMeasures()
+# print(exit_txt.readlines())
+# Pega as reviews processadas e junta todas numa lista para extração das features
+collocations = []
+for i in range(0,saida["Review"].__len__()):
+    for j in range(0,saida["Review"][i].__len__()):
+        collocations.extend(saida["Review"][i][j])
+finder = BigramCollocationFinder.from_words(collocations, window_size=3)
 #frequência mínima pra duas palavras serem um bigrama
 finder.apply_freq_filter(3)
-print(finder.nbest(bigram_measure.pmi, 10))
+print(finder.nbest(bigram_measures.pmi, 10000))
 
 
