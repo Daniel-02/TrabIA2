@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2572874-1080-488a-adb6-3c36bfb80b8a" name="Default" comment="">
+    <list default="true" id="e2572874-1080-488a-adb6-3c36bfb80b8a" name="Default" comment="Extração de Features">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brasileirao.csv_saida.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/brasileirao.csv_saida_processada.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/brasileirao.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/brasileirao.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brasileirao_saida.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/brasileirao_saida.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brasileirao_saida_processada.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/brasileirao_saida_processada.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brasileiraotexto.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/brasileiraotexto.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagger.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagger.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Tagger/tagger.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tagger/tagger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,31 +22,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="85" column="64" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
-              <folding>
-                <element signature="e#13#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="brasileiraotexto.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brasileiraotexto.txt">
+        <entry file="file://$PROJECT_DIR$/Data/brasileiraotexto.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="brasileirao_saida.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brasileirao_saida.csv">
+        <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida.csv">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="brasileirao_saida_processada.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brasileirao_saida_processada.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida_processada.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -48,6 +55,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>text</find>
+      <find>&amp;</find>
     </findStrings>
     <replaceStrings>
       <replace>review</replace>
@@ -95,8 +103,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ToolWindowTODO.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Daniel\Documents\GitHub\TrabIA2\Tagger" />
+      <recent name="C:\Users\Daniel\Documents\GitHub\TrabIA2\Data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,19 +168,43 @@
       <option name="project" value="LOCAL" />
       <updated>1530458060611</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Preenchimento do Txt">
+      <created>1530459656334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530459656334</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Extração de Features">
+      <created>1530465018070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530465018070</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="933" y="1" width="959" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24178155" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1495228" side_tool="true" visible="true" weight="0.32324323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24178155" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994698" weight="0.30702704" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.15058325" side_tool="true" visible="true" weight="0.32324323" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8504772" visible="true" weight="0.32324323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.84941673" visible="true" weight="0.32324323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -176,7 +215,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -184,10 +222,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Conflito no merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conflito no merge" />
+    <MESSAGE value="Preenchimento do Txt" />
+    <MESSAGE value="Extração de Features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extração de Features" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tagger.py">
+    <entry file="file://$PROJECT_DIR$/Tagger/tagger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -206,15 +246,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/saida.csv" />
     <entry file="file://$PROJECT_DIR$/saida_processada.csv" />
-    <entry file="file://$PROJECT_DIR$/tagger.py">
+    <entry file="file://$PROJECT_DIR$/Tagger/tagger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -237,29 +274,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brasileirao_saida.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brasileirao_saida_processada.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brasileirao.csv">
+    <entry file="file://$PROJECT_DIR$/Data/brasileirao.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brasileiraotexto.txt">
+    <entry file="file://$PROJECT_DIR$/Data/brasileiraotexto.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida_processada.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="85" column="64" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>

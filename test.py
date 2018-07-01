@@ -17,7 +17,7 @@ def join_text(text1, text2):
 
 # Inicialização do csv
 csv_title = 'brasileirao'
-arq = pd.read_csv(csv_title+'.csv', encoding='utf8')
+arq = pd.read_csv('Data/' + csv_title+'.csv', encoding='utf8')
 saida = pd.DataFrame(columns=["Review", "Rating"])
 #a ideia é ter um arquivo texto puro daonde a gente faria a leitura para fazer a extração de funcionalidades
 # saidaTxt = open(csv_title + "texto.txt", 'wt', encoding='utf8')
@@ -30,10 +30,10 @@ for i in range(0, arq['Content'].__len__()):
     # except:
     #     pass
 reviews = saida['Review']
-saida.to_csv(csv_title+'_saida.csv', encoding='utf8')
+saida.to_csv('Data/' + csv_title+'_saida.csv', encoding='utf8')
 # saidaTxt.close()
 
-tagger = pickle.load(open("tagger.pkl", 'rb'))
+tagger = pickle.load(open("Tagger/tagger.pkl", 'rb'))
 portuguese_sent_tokenizer = nltk.data.load("tokenizers/punkt/portuguese.pickle")
 stopwords = nltk.corpus.stopwords.words('portuguese')
 custom_stopwords = ['app', 'por', 'favor', 'conserta', 'conserte']
@@ -74,7 +74,7 @@ for r in range(0, reviews.__len__()):
             stemmed_words.append(tuple([stemmer.stem(word[0]), word[1]]))
         stemmed_sentences.append(stemmed_words)
     saida.set_value(r, "Review", stemmed_sentences)
-saida.to_csv(csv_title+'_saida_processada.csv', encoding='utf8')
+saida.to_csv('Data/' + csv_title+'_saida_processada.csv', encoding='utf8')
 
 # Algoritmo de collocation de bigramas: se não me engano precisamos considerar todas as reviews para encontrar bigramas:
 # caso não seja isso colocar o trecho abaixo em um for
