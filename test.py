@@ -16,22 +16,22 @@ def join_text(text1, text2):
     return ''
 
 # Inicialização do csv
-csv_title = 'brasileirao'
+csv_title = 'Etitulo'
 arq = pd.read_csv('Data/' + csv_title+'.csv', encoding='utf8')
 saida = pd.DataFrame(columns=["Review", "Rating"])
 #a ideia é ter um arquivo texto puro daonde a gente faria a leitura para fazer a extração de funcionalidades
-# saidaTxt = open(csv_title + "texto.txt", 'wt', encoding='utf8')
+saidaTxt = open("Data/" + csv_title + "Reviews.txt", 'wt', encoding='utf8')
 
 for i in range(0, arq['Content'].__len__()):
     saida.set_value(i, "Review", join_text(arq['Title'][i], arq['Content'][i]))
     saida.set_value(i, "Rating", arq['Rating'][i])
-    # try:
-    #    saidaTxt.write(arq['Content'][i] + '\n')
-    # except:
-    #     pass
+    try:
+       saidaTxt.write(arq['Content'][i] + '\n')
+    except:
+        pass
 reviews = saida['Review']
 saida.to_csv('Data/' + csv_title+'_saida.csv', encoding='utf8')
-# saidaTxt.close()
+saidaTxt.close()
 
 tagger = pickle.load(open("Tagger/tagger.pkl", 'rb'))
 portuguese_sent_tokenizer = nltk.data.load("tokenizers/punkt/portuguese.pickle")
@@ -90,24 +90,5 @@ finder = BigramCollocationFinder.from_words(collocations, window_size=3)
 #frequência mínima pra duas palavras serem um bigrama
 finder.apply_freq_filter(3)
 print(finder.nbest(bigram_measures.pmi, 10000))
-
-
-import subprocess
-import shlex
-def RateSentiment(sentiString):
-    path = os.path.dirname(sys.argv[0])
-    print("java -jar " + path + "/SentiStrength.jar stdin sentidata " + path + "/SentiStrength/SentiStrength_Data/")
-    #open a subprocess using shlex to get the command line string into the correct args list format
-    #Modify the location of SentiStrength.jar and D:/SentiStrength_Data/ if necessary
-    p = subprocess.Popen(shlex.split("java -jar " + path + "/SentiStrength/SentiStrength2.3Free.jar stdin sentidata " + path + "/SentiStrength/SentiStrength_Data/"),stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-    #communicate via stdin the string to be rated. Note that all spaces are replaced with +
-    #Can't send string in Python 3, must send bytes
-    #communicate via stdin the string to be rated. Note that all spaces are replaced with +
-    stdout_text, stderr_text = p.communicate(bytes(sentiString.replace(" ","+"), 'utf-8'))
-    #remove the tab spacing between the positive and negative ratings. e.g. 1    -5 -> 1-5
-    stdout_text = stderr_text.decode("utf-8").rstrip().replace("\t","")
-    return stdout_text
-#An example to illustrate calling the process.
-print(RateSentiment("Muito bom... o ruim que demora a atualizar a classificação. Mas é o melhor pra acompanhar o Brasileirão"))
 
 
