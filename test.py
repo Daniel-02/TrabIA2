@@ -16,20 +16,23 @@ def join_text(text1, text2):
     return ''
 
 # Inicialização do csv
-csv_title = 'brasileirao.csv'
+csv_title = 'brasileirao'
 exit_title = csv_title.split('.')[0] + "texto.txt"
-arq = pd.read_csv(csv_title, encoding='utf8')
-reviews_title = arq['Title']
-reviews_content = arq['Content']
-reviews_rating = arq['Rating']
+arq = pd.read_csv(csv_title+'.csv', encoding='utf8')
 saida = pd.DataFrame(columns=["Review", "Rating"])
-for i in range(0, reviews_content.__len__()):
-    saida.set_value(i, "Review", join_text(reviews_title[i], reviews_content[i]))
-    saida.set_value(i, "Rating", reviews_rating[i])
+#a ideia é ter um arquivo texto puro daonde a gente faria a leitura para fazer a extração de funcionalidades
+saidaTxt = open(exit_title,'wt', encoding='utf8')
+
+for i in range(0, arq['Content'].__len__()):
+    saida.set_value(i, "Review", join_text(arq['Title'][i], arq['Content'][i]))
+    saida.set_value(i, "Rating", arq['Rating'][i])
+    try:
+       saidaTxt.write(arq['Content'][i] + '\n')
+    except:
+        pass
 reviews = saida['Review']
 saida.to_csv(csv_title+'_saida.csv', encoding='utf8')
-#a ideia é ter um arquivo texto puro daonde a gente faria a leitura para fazer a extração de funcionalidades
-saidaTxt = open(exit_title,'wt')
+saidaTxt.close()
 
 
 for r in range(0, reviews.__len__()):
@@ -77,6 +80,8 @@ saida.to_csv(csv_title+'_saida_processada.csv', encoding='utf8')
 # Algoritmo de collocation de bigramas: se não me engano precisamos considerar todas as reviews para encontrar bigramas:
 # caso não seja isso colocar o trecho abaixo em um for
 exit_txt = open(exit_title,'rt')
+# arq_reviews = pd.read_csv(csv_title+'_saida.csv', encoding='utf8')
+# print(arq_reviews["Review"][0])
 bigram_measure = nltk.collocations.BigramAssocMeasures()
 finder = BigramCollocationFinder.from_words(exit_txt.readlines()) #leio tudo do arquivo para uma string, o que é altamente pesado. Na real isso tá bugado
 #frequência mínima pra duas palavras serem um bigrama
