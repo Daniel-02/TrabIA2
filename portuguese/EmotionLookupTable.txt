@@ -1,4 +1,4 @@
-﻿ADVERS	-2
+ADVERS	-2
 AGU	-3
 ALOL	2
 AOK	2
@@ -193,6 +193,7 @@ arrepio	-2
 arriscado	-2
 arrogan	-3
 arrogante	-2
+arrombado	-2
 arruda	-2
 arsehole	-3
 arteiro	-2
@@ -767,6 +768,7 @@ esconder-se	-2
 escoriáceo	-2
 escravidão	-2
 escravizar	-2
+escroto	-2
 escrutinar	-2
 escurecer	-2
 escuro	-2
@@ -1023,6 +1025,7 @@ horda	-2
 horr	-4
 horrorizado	-2
 horrível	-4
+horrível	-4
 hostil	-3
 hugg	3
 humilhante	-4
@@ -1272,6 +1275,7 @@ manipulat	-2
 mano	2
 manso	-2
 maníaco	-3
+maravilha	3
 marginal	-2
 masmorra	-2
 masochis	-3
@@ -1379,6 +1383,7 @@ ociosidade	-2
 oco	-2
 ocultar	-2
 odeia	-4
+odeio	-4
 odeio	-4
 odiando	-4
 odiava	-4
@@ -1545,6 +1550,7 @@ punir	-2
 puro	1
 pária	-2
 pânico	-3
+péssimo	-3
 quebrou	-2
 queda	-2
 queimar	-2
@@ -1558,11 +1564,13 @@ quitação	-2
 racis	-2
 radiano	3
 radical	-2
+raiva	-3
 raiva	-4
 ralhar	-2
 ralo	-2
 rampante	-2
 rancor	-2
+ranço	-2
 rançoso	-3
 raptar	-2
 rasgar	-2
@@ -1656,6 +1664,8 @@ rude	-2
 rufião	-2
 ruga	-2
 ruim	-2
+ruim	-2
+ruim	-3
 rumor	-2
 ruptura	-2
 ruído	-1
@@ -1809,6 +1819,7 @@ temperamentos	-1
 tempestade	-2
 tempestuoso	-2
 temporariamente	-2
+tenso	-2
 tenso	-3
 tensão	-3
 tentação	-2
@@ -1957,27 +1968,15 @@ xox	2
 xx	2
 yay	2
 yays	3
-zomba	-3
 zoado	-3
-zuado	-3
+zomba	-3
 zombado	-3
 zombando	-3
 zombar	-2
+zuado	-3
 álibi	-2
 árduo	-2
 áspero	-2
 ódio	-4
-odeio	-4
-raiva	-3
 órfãos	-2
-ranço	-2
 útil	2
-ruim	-2
-péssimo	-3
-horrível	-4
-tenso	-2
-arrombado	-2
-escroto	-2
-ruim	-3
-maravilha	3
-

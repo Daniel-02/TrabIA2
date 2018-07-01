@@ -1,8 +1,8 @@
 import nltk
 from nltk.collocations import *
-from nltk import word_tokenize
 import pickle
 import pandas as pd
+import os, sys
 
 def join_text(text1, text2):
     if type(text1) is str:
@@ -90,5 +90,24 @@ finder = BigramCollocationFinder.from_words(collocations, window_size=3)
 #frequência mínima pra duas palavras serem um bigrama
 finder.apply_freq_filter(3)
 print(finder.nbest(bigram_measures.pmi, 10000))
+
+
+import subprocess
+import shlex
+def RateSentiment(sentiString):
+    path = os.path.dirname(sys.argv[0])
+    print("java -jar " + path + "/SentiStrength.jar stdin sentidata " + path + "/SentiStrength/SentiStrength_Data/")
+    #open a subprocess using shlex to get the command line string into the correct args list format
+    #Modify the location of SentiStrength.jar and D:/SentiStrength_Data/ if necessary
+    p = subprocess.Popen(shlex.split("java -jar " + path + "/SentiStrength/SentiStrength2.3Free.jar stdin sentidata " + path + "/SentiStrength/SentiStrength_Data/"),stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    #communicate via stdin the string to be rated. Note that all spaces are replaced with +
+    #Can't send string in Python 3, must send bytes
+    #communicate via stdin the string to be rated. Note that all spaces are replaced with +
+    stdout_text, stderr_text = p.communicate(bytes(sentiString.replace(" ","+"), 'utf-8'))
+    #remove the tab spacing between the positive and negative ratings. e.g. 1    -5 -> 1-5
+    stdout_text = stderr_text.decode("utf-8").rstrip().replace("\t","")
+    return stdout_text
+#An example to illustrate calling the process.
+print(RateSentiment("Muito bom... o ruim que demora a atualizar a classificação. Mas é o melhor pra acompanhar o Brasileirão"))
 
 

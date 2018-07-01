@@ -3,9 +3,11 @@ absurdamente	2
 alguns	-1
 apenas	-1
 assim	0
+bem	2
 completamente	1
 completo	1
 definitivamente	1
+demais	1
 demasiadamente	1
 deve	-1
 deveria	-1
@@ -16,7 +18,9 @@ extremamente	2
 fez	-1
 incrivelmente	2
 ligeiramente	-1
+mal	-2
 maldito	2
+maravilhosamente	2
 muito	1
 pode	-1
 poderia	-1
@@ -27,9 +31,3 @@ seria	-1
 soma	-1
 total	1
 totalmente	1
-bem	2
-mal	-2
-demais	1
-maravilhosamente	2
-
-
