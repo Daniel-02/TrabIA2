@@ -2,7 +2,7 @@ import nltk
 from nltk.collocations import *
 import pickle
 import pandas as pd
-import os, sys
+import pathlib
 
 def join_text(text1, text2):
     if type(text1) is str:
@@ -16,11 +16,14 @@ def join_text(text1, text2):
     return ''
 
 # Inicialização do csv
-csv_title = 'Etitulo'
+csv_title = 'brasileirao'
 arq = pd.read_csv('Data/' + csv_title+'.csv', encoding='utf8')
 saida = pd.DataFrame(columns=["Review", "Rating"])
+# Cria pasta com o nome do arquivo
+pathlib.Path('Data/' + csv_title).mkdir(parents=True, exist_ok=True)
 #a ideia é ter um arquivo texto puro daonde a gente faria a leitura para fazer a extração de funcionalidades
-saidaTxt = open("Data/" + csv_title + "Reviews.txt", 'wt', encoding='utf8')
+saidaTxt = open("Data/" + csv_title + "/" + "Reviews.txt", 'wt', encoding='utf8')
+saidaTxt.write('\n')
 
 for i in range(0, arq['Content'].__len__()):
     saida.set_value(i, "Review", join_text(arq['Title'][i], arq['Content'][i]))
@@ -29,20 +32,19 @@ for i in range(0, arq['Content'].__len__()):
        saidaTxt.write(arq['Content'][i] + '\n')
     except:
         pass
-reviews = saida['Review']
-saida.to_csv('Data/' + csv_title+'_saida.csv', encoding='utf8')
+saida.to_csv('Data/' + csv_title + "/" +'Saida.csv', encoding='utf8')
 saidaTxt.close()
 
 tagger = pickle.load(open("Tagger/tagger.pkl", 'rb'))
 portuguese_sent_tokenizer = nltk.data.load("tokenizers/punkt/portuguese.pickle")
 stopwords = nltk.corpus.stopwords.words('portuguese')
-custom_stopwords = ['app', 'por', 'favor', 'conserta', 'conserte']
+custom_stopwords = ['app', 'por', 'favor', 'conserta', 'conserte', '&', 'quot']
 stopwords.extend(custom_stopwords)
 stemmer = nltk.stem.RSLPStemmer()
 
-for r in range(0, reviews.__len__()):
+for r in range(0, saida['Review'].__len__()):
 # Tokenização das sentenças
-    sentences = portuguese_sent_tokenizer.tokenize(reviews[r])
+    sentences = portuguese_sent_tokenizer.tokenize(saida['Review'][r])
     tokens = [nltk.word_tokenize(sentence) for sentence in sentences]
 
 # POS tagging
@@ -65,16 +67,17 @@ for r in range(0, reviews.__len__()):
             if tag[0] not in stopwords:
                 stopword_tokens.append(tag)
         stopwords_sentences.append(stopword_tokens)
+    saida.set_value(r, "Review", stopwords_sentences)
 
 # Stemming usando RSLPStemmer
-    stemmed_sentences = []
-    for stopwords_sentence in stopwords_sentences:
-        stemmed_words = []
-        for word in stopwords_sentence:
-            stemmed_words.append(tuple([stemmer.stem(word[0]), word[1]]))
-        stemmed_sentences.append(stemmed_words)
-    saida.set_value(r, "Review", stemmed_sentences)
-saida.to_csv('Data/' + csv_title+'_saida_processada.csv', encoding='utf8')
+#     stemmed_sentences = []
+#     for stopwords_sentence in stopwords_sentences:
+#         stemmed_words = []
+#         for word in stopwords_sentence:
+#             stemmed_words.append(tuple([stemmer.stem(word[0]), word[1]]))
+#         stemmed_sentences.append(stemmed_words)
+#     saida.set_value(r, "Review", stemmed_sentences)
+saida.to_csv('Data/' + csv_title + "/" +'Saida_processada.csv', encoding='utf8')
 
 # Algoritmo de collocation de bigramas: se não me engano precisamos considerar todas as reviews para encontrar bigramas:
 # caso não seja isso colocar o trecho abaixo em um for
@@ -82,13 +85,33 @@ saida.to_csv('Data/' + csv_title+'_saida_processada.csv', encoding='utf8')
 bigram_measures = nltk.collocations.BigramAssocMeasures()
 # print(exit_txt.readlines())
 # Pega as reviews processadas e junta todas numa lista para extração das features
-collocations = []
+reviews = []
 for i in range(0,saida["Review"].__len__()):
     for j in range(0,saida["Review"][i].__len__()):
-        collocations.extend(saida["Review"][i][j])
-finder = BigramCollocationFinder.from_words(collocations, window_size=3)
+        reviews.extend(saida["Review"][i][j])
+finder = BigramCollocationFinder.from_words(reviews, window_size=3)
 #frequência mínima pra duas palavras serem um bigrama
 finder.apply_freq_filter(3)
-print(finder.nbest(bigram_measures.pmi, 10000))
+features = finder.nbest(bigram_measures.pmi, 10000)
+
+pathlib.Path('Data/' + csv_title + "/Features").mkdir(parents=True, exist_ok=True)
+def get_sentence(review):
+    sentence = ""
+    for word in review:
+        sentence = sentence + " " + word[0]
+    return sentence
+for feature in features:
+    feature_name = (feature[0][0] + "_" + feature[1][0])
+    # if not os.path.exists(csv_title):
+    #     os.makedirs(csv_title)
+    saidaTxt = open("Data/" + csv_title + "/Features/" + feature_name + ".txt", 'wt', encoding='utf8')
+    saidaTxt.write('\n')
+    for i in range(0, saida["Review"].__len__()):
+        for j in range(0, saida["Review"][i].__len__()):
+            finder = BigramCollocationFinder.from_words(saida["Review"][i][j], window_size=3)
+            if feature in finder.nbest(bigram_measures.pmi, 10000):
+                saidaTxt.write(get_sentence(saida["Review"][i][j]) + '\n')
+    saidaTxt.close()
+
 
 

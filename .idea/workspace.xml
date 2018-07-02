@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e2572874-1080-488a-adb6-3c36bfb80b8a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portuguese/BoosterWordList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portuguese/BoosterWordList.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portuguese/EmoticonLookupTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portuguese/EmoticonLookupTable.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portuguese/EmotionLookupTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portuguese/EmotionLookupTable.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portuguese/QuestionWords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portuguese/QuestionWords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EtituloReviews.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Etitulo_saida.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Etitulo_saida_processada.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,26 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="brasileiraotexto.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/brasileiraotexto.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brasileirao_saida.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255" />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="brasileirao_saida_processada.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida_processada.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state>
               <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
             </state>
           </provider>
@@ -46,13 +29,37 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="101" column="95" selection-start-line="101" selection-start-column="95" selection-end-line="101" selection-end-column="95" />
+            <state relative-caret-position="326">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="identificação_biométrica.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/identificação_biométrica.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="identificação_biométrica+results.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/identificação_biométrica+results.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="conexão_internet.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/conexão_internet.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="brasileiraotexto+results.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/brasileiraotexto+results.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -79,6 +86,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/brasileirao.csv" />
+        <option value="$PROJECT_DIR$/Data/Etitulo/Features/identificação_biométrica.txt" />
         <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
@@ -94,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,18 +117,21 @@
             <path>
               <item name="TrabIA2" type="b2602c69:ProjectViewProjectNode" />
               <item name="TrabIA2" type="462c0819:PsiDirectoryNode" />
-              <item name="SentiStrength" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Etitulo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TrabIA2" type="b2602c69:ProjectViewProjectNode" />
               <item name="TrabIA2" type="462c0819:PsiDirectoryNode" />
-              <item name="SentiStrength" type="462c0819:PsiDirectoryNode" />
-              <item name="SentiStrength_data" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Etitulo" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +221,28 @@
       <option name="project" value="LOCAL" />
       <updated>1530465660482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SentiStrength">
+      <created>1530477487984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530477487984</updated>
+    </task>
+    <task id="LOCAL-00006" summary="SentiStrength Folder">
+      <created>1530477623577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530477623577</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Txt dos csv">
+      <created>1530479886866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530479886866</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -227,23 +258,24 @@
     <frame x="933" y="1" width="959" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09756097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32555673" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994698" weight="0.30702704" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.15270413" side_tool="true" visible="true" weight="0.32324323" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4994698" weight="0.19783784" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.15482503" side_tool="true" visible="true" weight="0.32324323" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840933" weight="0.19783784" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8472959" visible="true" weight="0.32324323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.84517497" visible="true" weight="0.32324323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -254,24 +286,43 @@
     <MESSAGE value="Preenchimento do Txt" />
     <MESSAGE value="Extração de Features" />
     <MESSAGE value="Reorganização dos arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganização dos arquivos" />
+    <MESSAGE value="SentiStrength" />
+    <MESSAGE value="SentiStrength Folder" />
+    <MESSAGE value="Txt dos csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Txt dos csv" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tagger/tagger.py">
+    <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida_processada.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="952">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brasileirao.csv_saida.csv">
+    <entry file="file://$PROJECT_DIR$/Data/brasileiraotexto+results.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/brasileirao.csv_saida_processada.csv">
+    <entry file="file://$PROJECT_DIR$/Data/EtituloReviews.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tagger/tagger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brasileirao.csv_saida.csv" />
+    <entry file="file://$PROJECT_DIR$/brasileirao.csv_saida_processada.csv" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -285,28 +336,10 @@
     <entry file="file://$PROJECT_DIR$/saida.csv" />
     <entry file="file://$PROJECT_DIR$/saida_processada.csv" />
     <entry file="file://$PROJECT_DIR$/Tagger/tagger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/brasileirao.csv_saida_processada.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="123" lean-forward="true" selection-start-line="27" selection-start-column="123" selection-end-line="27" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brasileirao.csv_saida.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/brasileirao.csv_saida_processada.csv" />
+    <entry file="file://$PROJECT_DIR$/brasileirao.csv_saida.csv" />
     <entry file="file://$PROJECT_DIR$/Data/brasileirao.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -314,21 +347,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/brasileiraotexto.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/brasileirao_saida_processada.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state>
           <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
         </state>
       </provider>
@@ -340,10 +364,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data/brasileiraotexto.txt" />
+    <entry file="file://$PROJECT_DIR$/Data/brasileiraotexto+results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/EtituloReviews.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo_&amp;Atenção.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo_conexãointernet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo_conseguiacessar.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo_dadosmensagem.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo_Dizconexão.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo_dizeleitor.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo_dizencontrado.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/dados_mensagem+results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/conexão_internet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/conexão_internet+results+results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/conexão_internet+results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/identificação_biométrica+results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Etitulo/Features/identificação_biométrica.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="101" column="95" selection-start-line="101" selection-start-column="95" selection-end-line="101" selection-end-column="95" />
+        <state relative-caret-position="326">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
