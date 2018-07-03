@@ -1,2 +1,2 @@
 	Translation	Positive	Negative	EmotionRationale
- adianta criar CNH digital cadastrar é burocracia	 adianta criar CNH digital cadastrar é burocracia	1	-1	 adianta[0] criar[0] CNH[0] digital[0] cadastrar[0] é[0] burocracia[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
+ adianta criar CNH digital cadastrar é burocracia	 adianta criar CNH digital cadastrar é burocracia	1	-2	 adianta[0] criar[0] CNH[0] digital[0] cadastrar[0] é[0] burocracia[-1] [[Sentence=-2,1=word max, 1-5]][[[1,-2 max of sentences]]]

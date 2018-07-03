@@ -194,6 +194,7 @@ arriscado	-2
 arrogan	-3
 arrogante	-2
 arrombado	-2
+arrombado	-3
 arruda	-2
 arsehole	-3
 arteiro	-2
@@ -288,10 +289,12 @@ bobagens	-2
 bobo	-2
 bocejo	-2
 bom	2
+bom	2
 bomba	-2
 bondade	2
 bonehead	-2
 bonito	2
+bosta	-3
 brandir	-2
 brando	-2
 bravata	-2
@@ -315,6 +318,9 @@ bullshit	-3
 bumhole	-2
 burgl	-2
 burlista	-3
+burocracia	-2
+burocratico	-2
+burocrático	-2
 burro	-2
 bélico	-2
 bêbado	-2
@@ -427,6 +433,8 @@ confusão	-2
 congestionado	-2
 congestionamento	-2
 conluio	-2
+consegui	1
+conseguir	1
 conspirador	-2
 conspirar	-2
 conspiração	-2
@@ -461,6 +469,7 @@ craZ	-1
 crap	-3
 crappy	-3
 crasso	-2
+credibilidade	2
 crepitar	-2
 crime	-2
 crise	-2
@@ -472,6 +481,7 @@ crédulo	-2
 crítica	-2
 crítico	-2
 crônica	-3
+cu	-3
 cuidados	2
 cuidar	3
 culpa	-4
@@ -645,7 +655,9 @@ dilúvio	-2
 diminuir	-2
 diminuição	-2
 dinâmi	1
+direitinho	2
 direito	-2
+direito	2
 disagre	-2
 disapprov	-2
 discordante	-2
@@ -694,12 +706,14 @@ dork	-3
 douchebag	-2
 downhearted	-2
 doçura	3
+droga	-2
 duvidoso	-2
 débil	-2
 défice	-2
 dúvida	-2
 easie	1
 eejit	-3
+eficiente	2
 egotis	-3
 egoísta	-4
 ei	2
@@ -825,6 +839,7 @@ evitar	-2
 exagerando	-2
 exasperat	-2
 excedente	-2
+excelente	4
 excentricidade	-2
 excessiva	-2
 excesso	-2
@@ -931,6 +946,7 @@ fucks	-3
 fuckwit	-2
 fuctard	-2
 fud	-3
+fudido	-3
 fuga	-2
 fugaz	-2
 fugir	-2
@@ -939,11 +955,14 @@ fugiu	-2
 fugly	-4
 fumaça	-3
 fuming	-4
+funciona	1
+funcionar	1
 fundador	-2
 funn	2
 furioso	-4
 futilidade	-2
 fácil	1
+fácil	2
 fé	2
 fúria	-4
 fútil	-2
@@ -974,7 +993,6 @@ gosta	3
 gostei	3
 gosto	3
 gracioso	3
-grande	3
 gratef	2
 gratuito	-2
 grave	-2
@@ -1059,6 +1077,7 @@ implorar	-2
 impopular	-2
 impor	-2
 importan	1
+impossível	-2
 impotente	-2
 imprecisão	-2
 impressionar	2
@@ -1109,6 +1128,7 @@ indizível	-2
 ineffect	-2
 ineficiência	-2
 inesperadamente	-2
+inesperado	-1
 inevitável	-2
 inexatidão	-2
 inexato	-2
@@ -1182,6 +1202,7 @@ inundar	-2
 invadir	-2
 inveja	-3
 invejoso	-3
+investe	1
 invisível	-1
 involuntário	-2
 inválido	-2
@@ -1231,7 +1252,7 @@ litig	-2
 livel	2
 livrar	-2
 livrará	2
-lixo	-2
+lixo	-3
 lmao	3
 lodo	-2
 lol	2
@@ -1276,6 +1297,9 @@ mano	2
 manso	-2
 maníaco	-3
 maravilha	3
+maravilhosa	3
+maravilhoso	3
+maravilhoso	3
 marginal	-2
 masmorra	-2
 masochis	-3
@@ -1299,6 +1323,7 @@ mentiras	-3
 mentiroso	-3
 mentiu	-3
 merda	-2
+merda	-3
 merdoso	-2
 meretriz	-2
 merr	2
@@ -1321,6 +1346,7 @@ mortal	-2
 mortalha	-2
 morte	-3
 mortif	-3
+morto	-2
 mortos	-4
 mourejar	-2
 mudo	-2
@@ -1461,6 +1487,8 @@ perfeito	2
 perigo	-2
 perigosas	-2
 perigosos	-2
+permite	1
+permitir	1
 perplexidade	-2
 persecut	-3
 perseguição	-2
@@ -1497,6 +1525,7 @@ pomposo	-2
 pontapé	-2
 popa	-2
 populares	3
+porcaria	-2
 porra	-1
 porte	-2
 positiv	3
@@ -1506,15 +1535,21 @@ prannock	-2
 prat	-2
 precioso	3
 precipitado	-2
+precisa	-1
+precisar	-1
 precário	-2
 predicamento	-2
+predujicado	-2
 preguiça	-2
 preguiçosamente	-2
 preguiçoso	-2
 prejudic	-3
+prejudica	-2
 prejudica	-3
+prejudicada	-2
 prejudicado	-3
 prejudicando	-3
+prejudicar	-2
 prejudicar	-2
 prejudiciais	-2
 prejudicial	-2
@@ -1543,6 +1578,7 @@ protesto	-2
 provação	-2
 provocar	-2
 provocação	-2
+prático	2
 prêmio	3
 puk	-3
 punho	-2
@@ -1550,6 +1586,7 @@ punir	-2
 puro	1
 pária	-2
 pânico	-3
+péssima	-4
 péssimo	-3
 quebrou	-2
 queda	-2
@@ -1597,6 +1634,7 @@ refugiados	-2
 refutar	-2
 regozijar	-2
 regresso	-2
+reiniciar	-1
 rejeitar	-2
 relaxar	3
 reluctan	-2
@@ -1638,6 +1676,8 @@ revolução	-2
 ricos	1
 ridicul	-2
 ridicularizar	-2
+ridiculo	-2
+ridículo	-2
 ridículo	-3
 rigor	-2
 rigorosa	-2
@@ -1663,13 +1703,12 @@ roubo	-2
 rude	-2
 rufião	-2
 ruga	-2
-ruim	-2
-ruim	-2
 ruim	-3
 rumor	-2
 ruptura	-2
 ruído	-1
 ruína	-2
+rápido	2
 rígida	-2
 sabedoria	1
 sabotar	-2
@@ -1708,6 +1747,7 @@ servidão	-2
 servil	-2
 sexista	-3
 sexy	3
+show	2
 sigilo	-1
 silli	2
 simples	-2
@@ -1925,6 +1965,7 @@ verdade	2
 verdadeiramente	2
 verdadeiro	2
 vergonha	-3
+verificar	-1
 veto	-2
 vice	-2
 viciado	-2
@@ -1979,4 +2020,5 @@ zuado	-3
 áspero	-2
 ódio	-4
 órfãos	-2
-útil	2
+ótimo	3
+útil	3
