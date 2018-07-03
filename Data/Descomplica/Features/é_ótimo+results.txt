@@ -1,0 +1,4 @@
+	Translation	Positive	Negative	EmotionRationale
+ disso é ótimo vai prestar vestibular	 disso é ótimo vai prestar vestibular	1	-1	 disso[0] é[0] ótimo[0] vai[0] prestar[0] vestibular[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
+ aplicativo conteúdo plataforma é ótimo	 aplicativo conteúdo plataforma é ótimo	1	-1	 aplicativo[0] conteúdo[0] plataforma[0] é[0] ótimo[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
+ é ótimo	 é ótimo	1	-1	 é[0] ótimo[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]

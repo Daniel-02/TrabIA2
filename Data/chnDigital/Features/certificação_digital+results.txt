@@ -1,0 +1,4 @@
+	Translation	Positive	Negative	EmotionRationale
+ certificação digital brasileiro possui	 certificação digital brasileiro possui	1	-1	 certificação[0] digital[0] brasileiro[0] possui[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
+ quiser fazer certificação digital pagar R vale ano	 quiser fazer certificação digital pagar R vale ano	1	-1	 quiser[0] fazer[0] certificação[0] digital[0] pagar[0] R[0] vale[0] ano[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
+ Ridiculo dizem precisa pegar fila Detran basta ter certificação digital	 Ridiculo dizem precisa pegar fila Detran basta ter certificação digital	1	-1	 Ridiculo[0] dizem[0] precisa[0] pegar[0] fila[0] Detran[0] basta[0] ter[0] certificação[0] digital[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]

@@ -1,0 +1,4 @@
+	Translation	Positive	Negative	EmotionRationale
+ faz sentido ter ir Detran validar acesso caso ter certificado	 faz sentido ter ir Detran validar acesso caso ter certificado	1	-1	 faz[0] sentido[0] ter[0] ir[0] Detran[0] validar[0] acesso[0] caso[0] ter[0] certificado[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
+ Tem ir unidade Detran validar dados	 Tem ir unidade Detran validar dados	1	-1	 Tem[0] ir[0] unidade[0] Detran[0] validar[0] dados[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
+ adianta poder usar celular ir Detran validar	 adianta poder usar celular ir Detran validar	1	-1	 adianta[0] poder[0] usar[0] celular[0] ir[0] Detran[0] validar[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]

@@ -1,0 +1,3 @@
+	Translation	Positive	Negative	EmotionRationale
+ conteúdo é maravilhoso reclamar deixe desejar	 conteúdo é maravilhoso reclamar deixe desejar	1	-1	 conteúdo[0] é[0] maravilhoso[0] reclamar[0] deixe[0] desejar[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
+ aplicativo conteúdo plataforma é ótimo	 aplicativo conteúdo plataforma é ótimo	1	-1	 aplicativo[0] conteúdo[0] plataforma[0] é[0] ótimo[0] [[Sentence=-1,1=word max, 1-5]][[[1,-1 max of sentences]]]
